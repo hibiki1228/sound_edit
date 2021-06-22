@@ -2,7 +2,7 @@ import sound_adj as sa
 
 def main():
   while True:
-    query_num = int(input("[Sound Adjust Tool] What do you want? type {0:quit, 1:cut sound,2:add audio segments, 3:change volume, 4:change format}\n"))
+    query_num = int(input("[Sound Adjust Tool] What do you want?\ntype {0:quit, 1:cut sound,2:add audio segments, 3:change volume, 4:change format}\n"))
 
     # 0が入力されたとき
     if query_num == 0:
